@@ -1,31 +1,7 @@
 
-/*
-let search = document.querySelector(".search");
-
-let clear = document.querySelector(".clear");
-
-search.onclick = function(){
-      document.querySelector(".container").classList.toggle('active');
-}
-clear.onclick = function(){
-      document.getElementById("search").value = "";
-}
-*/
-/*
-var counter = 1;
-setInterval(function(){
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-    if( counter > 4){
-        counter = 1;
-    }
-} ,5000);*/
 
 
-
-
-
-let slideImages = document.querySelectorAll('img');
+let slideImages = document.querySelectorAll('.slides img');
 
 let next = document.querySelector('.next');
 let prev = document.querySelector('.prev');
@@ -107,17 +83,17 @@ function switchImage(currentImage){
     indicators();
 }
 /*for dropdown*/ 
-let bars = document.querySelector('.bars');
+/*let bars = document.querySelector('.bars');
 let navbar = document.querySelector('.navbar');
 let header = document.querySelector('header');
 
 bars.onclick = function(){
     header.classList.toggle('open');
 }
-
+*/
 /*Search bar*/
 
-let searchbtn = document.querySelector('.searchbtn');
+/*let searchbtn = document.querySelector('.searchbtn');
 
 let closebtn = document.querySelector('.closebtn');
 
@@ -127,10 +103,4 @@ searchbtn.onclick = function(){
     searchbox.classList.toggle('active');
     closebtn.classList.toggle('active');
     searchbtn.classList.toggle('active');
-}
-
-closebtn.onclick = function(){
-    searchbox.classList.toggle('active');
-    closebtn.classList.toggle('active');
-    searchbtn.classList.toggle('active');
-}
+}*/
