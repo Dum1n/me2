@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse</title>
+    <link rel="shortcut icon"
+          href="logof.png"
+          type="image/x-icon">
+    <link rel="stylesheet" href="Productspage.css">
+    <script src="https://kit.fontawesome.com/271088f4a8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Oval&family=Poppins:wght@200;400&family=Preahvihear&display=swap"rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "kqp_Rzc1D0hSncqON",
+        });
+    })();
+    </script>
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="FastFood.md.html" class="logo">
+           <img src="logof.png" alt="" loading="lazy">
+           <p>Fast Food</p>
+       </a>
+   
+        <div class="navbar">
+        <a href="Productspage.html">Produse</a>
+        <a href="AboutUs.html">Despre noi</a>
+        <a href="Contactus.html">Contacte</a>
+        <!-- <div class="loginbtn"> 
+        <a href="login.html">
+        <h1>Log in</h1> 
+        </a>
+    </div>-->
+       </div>
+         <div class="bars"> 
+        <i class="fa-solid fa-bars"></i>
+         </div>
+       </header>
+
+        
+       <div class="container1">
+        <div class="header1">
+            <p>Comandă ceva delicios din meniul nostru</p>
+        </div>
+        <!--<div class="sidebar">
+            <div class="sidehead">
+            <hr style="margin: 15px 0; border: 1px solid #eee;">
+            </div>
+            <div class="sidebody" style="height: 69vh;">-->
+        <div class="searchsis">
+            <div class="row">
+                <div class="search">
+                <div class="searchbar">
+                    <i class="fa-solid fa-magnifying-glass glass"></i>
+                    <input placeholder="Search..." id="searchBar" name="searchBar" type="text">
+                    <!--<i class="fa-solid fa-magnifying-glass glass"></i>-->
+                </div>
+            </div>
+
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+            
+        <div class="buttons">
+          <div class="button-product1" ><p>Toate</p></div>
+          <div class="button-product2" ><p>Pizza</p></div>
+          <div class="button-product3" ><p>Sushi</p></div>
+          <div class="button-product4" ><p>Blinele</p></div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h1>&times;</h1>
+        <div class="column">
+        <div class="head"><p>Coșul meu</p></div>
+        </div>
+        <div id="cartItem">Coșul este gol</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total">0.00 lei</h2>
+        </div>
+        <div>
+            <div class="rowing">
+                <input type="text" id="fullName" placeholder="Numele" required><br>
+                <input type="number" id="telefon" placeholder="Telefon" required><br>
+                <input type="email" id="adresa" placeholder="Adresa" required><br>
+            </div>
+                <button onclick="SendMail()">Comandă</button>
+        </div>
+    </div>
+            <div class="sidefoot">
+                <hr style="margin: 15px 0; border: 1px solid #eee;">
+            </div>
+        </div>
+        <div class="data">
+        <!--<div class="header1">
+            <p>BUY EVERYTHING ONLINE</p>
+        </div>-->
+        <div class="body">
+            <div id="root"></div>
+            </div>
+        </div>
+
+       <div class="footer">
+        <div class="footerinfo">
+            <div class="adv">
+        <h2>Advertisment</h2>
+            <p>Acest site a fost realizat în cadrul proiectului Web development Tekwill.
+                 Nu este site-ul oficial al companiei "FastFood Căușeni" ci doar un proiect. 
+                 Realizat de elevii clasei a IX-a "B" al Liceului Teoretic "Mihai Eminescu" or. Căușeni.
+            </p>
+        </div>
+            <div class="social-icons">
+                <h2>Urmărește-ne și pe</h2>
+                <div class="social">
+                <a href="https://www.facebook.com/fastfoodCauseni/?locale=ro_RO"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/fastfood_causeni/"><i class="fa-brands fa-instagram"></i></a>
+                <!--<a href="https://www.facebook.com/?locale=ro_RO"><i class="fa-brands fa-square-github"></i></a>-->
+            </div>
+            </div>
+    </div>
+    </div>
+    
+       <script src="Productspage.js"></script>
+</body>
+</html>
